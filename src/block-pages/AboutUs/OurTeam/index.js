@@ -70,14 +70,14 @@ const OurTeam = () => {
                     </div>
                     <div className={styles.container2}>
                         <div className={styles.text}>
-                            <Link to={`${ROUTE_ABOUTUS}#${TAG_INVENTIAEXPERIENCE}`}>
+                            <a href={`${ROUTE_ABOUTUS}#${TAG_INVENTIAEXPERIENCE}`}>
                                 <Text className={styles.text1} text={experienceText} />
-                            </Link>
+                            </a>
                         </div>
                         <div className={styles.text}>
-                            <Link to={`${ROUTE_ABOUTUS}#${TAG_INVENTIASOFTWARE}`}>
+                            <a href={`${ROUTE_ABOUTUS}#${TAG_INVENTIASOFTWARE}`}>
                                 <Text className={styles.text1} text={softwareText} />
-                            </Link>
+                            </a>
                         </div>
                     </div>
                 </div>

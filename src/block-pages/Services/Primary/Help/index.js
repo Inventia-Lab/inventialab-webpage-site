@@ -2,11 +2,13 @@ import Text from "../../../../components/Text";
 import { useApiContext } from "../../../../context/wrappers/ContextProvider";
 import styles from "../../../../styles/block-pages/services/primary/help.module.css"
 import useResponsive from "../../../../hooks/useResponsive";
-// import Image from "next/image";
 import FadeInWrapper from "../../../../context/wrappers/FadeInWrapper";
-// import Link from "next/link";
-import { ROUTE_SERVICES, TAG_INVENTIAEXPERIENCE, TAG_INVENTIASOFTWARE, TAG_METHODOLOGY } from "../../../../utils/routes";
-import { Link } from "react-router-dom";
+import {
+    ROUTE_SERVICES,
+    TAG_INVENTIAEXPERIENCE,
+    TAG_INVENTIASOFTWARE,
+    TAG_METHODOLOGY
+} from "../../../../utils/routes";
 
 const Help = () => {
 
@@ -96,19 +98,19 @@ const Help = () => {
             <FadeInWrapper animationSize="big" type='fadeinleft' replay={true}>
                 <div className={styles.wrapper2}>
                     <div>
-                        <Link to={`${ROUTE_SERVICES}#${TAG_INVENTIAEXPERIENCE}`}>
+                        <a href={`${ROUTE_SERVICES}#${TAG_INVENTIAEXPERIENCE}`}>
                             <Text texts={experienceText} className={styles.text1} />
-                        </Link>
+                        </a>
                     </div>
                     <div>
-                        <Link to={`${ROUTE_SERVICES}#${TAG_INVENTIASOFTWARE}`}>
+                        <a href={`${ROUTE_SERVICES}#${TAG_INVENTIASOFTWARE}`}>
                             <Text texts={softwareText} className={styles.text2} />
-                        </Link>
+                        </a>
                     </div>
                     <div>
-                        <Link to={`${ROUTE_SERVICES}#${TAG_METHODOLOGY}`}>
+                        <a href={`${ROUTE_SERVICES}#${TAG_METHODOLOGY}`}>
                             <Text texts={methodologyText} className={styles.text3} />
-                        </Link>
+                        </a>
                     </div>
                 </div>
             </FadeInWrapper>
