@@ -1,0 +1,47 @@
+.background {
+    background-color: #E5E5E5;
+    padding: 365px 40px 290px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    max-width: 1000px;
+    width: 100%;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+    margin: 55px 0 0;
+}
+
+.title {
+    max-width: 627px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    letter-spacing: 2.4px;
+}
+
+@media (max-width: 920px) {
+    .background {
+        padding: 130px 20px 109px;
+    }
+
+    .title {
+        max-width: 330px;
+        width: 100%;
+        line-height: 15.469px;
+        letter-spacing: 1.1px;
+    }
+
+    .buttonContainer {
+        margin: 20px 0 0;
+    }
+
+    .buttonText {
+        display: flex;
+    }
+}

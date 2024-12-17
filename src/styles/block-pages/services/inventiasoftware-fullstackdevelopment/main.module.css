@@ -1,0 +1,162 @@
+.background {
+    background: #F5F5F5;
+    padding: 178px 40px 0;
+}
+
+.background1 {
+    background: #F5F5F5;
+    padding: 0 40px;
+}
+
+.wrapper {
+    max-width: 1020px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container {
+    padding: 140px 0 150px;
+    display: flex;
+    align-items: center;
+}
+
+.titleContainer {
+    max-width: 322px;
+    width: 100%;
+}
+
+.title {
+    line-height: 45.6px;
+}
+
+.title1 {
+    line-height: 14.25px;
+    margin: 0 0 25px;
+}
+
+.logo {
+    margin: 0 0 0 -30px;
+}
+
+.descriptionContainer {
+    max-width: 475px;
+    width: 100%;
+}
+
+.textContent {
+    display: flex;
+    align-items: center;
+    margin: 0 0 146px;
+}
+
+.textContent:last-child {
+    padding: 0 0 416px;
+    margin: 0;
+}
+
+.textTitle {
+    max-width: 380px;
+    width: 100%;
+    line-height: 34.2px;
+    letter-spacing: 2px;
+}
+
+.text {
+    width: 100%;
+    line-height: 28.125px;
+}
+
+.background2 {
+    width: 100%;
+    max-width: 100%;
+    padding: 0 0 0;
+}
+
+.background2 :global(img) {
+    display: block;
+}
+
+.content {
+    max-width: 498px;
+    width: 100%;
+    margin: 0 0 0 188px;
+}
+
+@media (max-width: 920px) {
+    .content {
+        margin: 0 0 0 50px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .background {
+        padding: 69px 40px 0;
+    }
+
+    .background1 {
+        padding: 0 40px 100px;
+    }
+
+    .background2 {
+        padding: 0 0 0;
+    }
+
+    .title {
+        line-height: 15.2px;
+    }
+
+    .title1 {
+        line-height: 14.25px;
+        margin: 0 0 14px;
+    }
+
+    .container {
+        padding: 0;
+        margin: 40px 0 0;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .logo {
+        margin: 0 0 15px -10px;
+    }
+
+    .titleContainer {
+        max-width: 220px;
+        width: 100%;
+        margin: 0 0 74px;
+    }
+
+    .descriptionContainer {
+        max-width: 245px;
+        width: 100%;
+    }
+
+    .textTitle {
+        max-width: 156px;
+        width: 100%;
+        line-height: 14.25px;
+        letter-spacing: normal;
+    }
+
+    .text {
+        max-width: 156px;
+        width: 100%;
+        line-height: 15.469px;
+    }
+
+    .content {
+        margin: 50px 0 0 41px;
+    }
+
+    .textContent {
+        margin: 0 0 38px;
+    }
+
+    .textContent:last-child {
+        margin: 0;
+        padding: 0;
+    }
+}

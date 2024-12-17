@@ -1,0 +1,48 @@
+.background {
+    background-image: url('../../../../public/images/home/welcome/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 0 40px;
+    height: 868px;
+    display: flex;
+    align-items: center;
+}
+
+.wrapper {
+    max-width: 1000px;
+    width: 100%;
+}
+
+.title {
+    max-width: 555px;
+    width: 100%;
+    display: block;
+    line-height: 34px;
+    letter-spacing: 4.8px;
+}
+
+.inventia {
+    margin: 20px 0 0;
+}
+
+@media (max-width: 768px) {
+    .background {
+        height: 503px;
+        padding: 69px 20px 0 74px;
+        background-position: 81%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .title {
+        max-width: 300px;
+        line-height: 23px;
+        letter-spacing: 1px;
+        margin: 48px 0 0;
+    }
+
+    .inventia {
+        margin: 18px 0 0;
+    }
+}

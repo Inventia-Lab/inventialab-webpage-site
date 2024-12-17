@@ -1,0 +1,136 @@
+.background {
+    background: #FFFFFF;
+    padding: 155px 40px 0;
+}
+
+.wrapper {
+    max-width: 1105px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.wrapper2 {
+    width: 100%;
+    margin: 0 auto 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    margin: 140px 0 399px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.titleContainer {
+    max-width: 322px;
+    width: 100%;
+}
+
+.title {
+    line-height: 45.6px;
+}
+
+.description {
+    line-height: 25.125px;
+    letter-spacing: 2px;
+}
+
+.logo {
+    margin: 0 0 0 -30px;
+}
+
+.descriptionContainer {
+    max-width: 616px;
+    width: 100%;
+}
+
+.textContent {
+    margin: 0 0 20px;
+}
+
+.text {
+    width: 100%;
+    text-align: end;
+}
+
+.background2 {
+    width: 100%;
+    max-width: 100%;
+}
+
+.background2 :global(img) {
+    display: block;
+}
+
+.img1 {
+    margin: 0 117px 0 0;
+}
+
+@media (max-width: 768px) {
+
+    .background {
+        padding: 69px 40px 0;
+    }
+
+    .title {
+        line-height: 19px;
+    }
+
+    .description {
+        line-height: 15.469px;
+        letter-spacing: 0.99px;
+    }
+
+    .container {
+        margin: 100px 0 80px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .logo {
+        margin: 0 0 15px -10px;
+    }
+
+    .titleContainer {
+        margin: 0 0 20px;
+        max-width: 220px;
+        width: 100%;
+        line-height: 95%;
+    }
+
+    .descriptionContainer {
+        max-width: 278px;
+        width: 100%;
+        line-height: 15.469px;
+        letter-spacing: 0.99px;
+    }
+
+    .text {
+        max-width: 180px;
+        width: 100%;
+    }
+
+    .textContent {
+        margin: 0 0 14px;
+        line-height: 106.625%;
+    }
+
+    .explanationContent {
+        display: flex;
+        padding: 130px 0;
+        align-items: center;
+    }
+
+    .img1 {
+        margin: 30px 16% 0 0;
+    }
+
+    .wrapper2 {
+        max-width: 300px;
+        margin: 0 auto 70px;
+        align-items: flex-start;
+    }
+}

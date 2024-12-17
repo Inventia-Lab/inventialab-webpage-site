@@ -1,0 +1,112 @@
+.background {
+    background-color: #e5e5e5;
+    position: relative;
+    padding: 275px 0 342px 179px;
+}
+
+.wrapper {
+    width: 100%;
+}
+
+.mainTitle {
+    line-height: 42.4px;
+    margin: 0 0 164px;
+    display: block;
+}
+
+.mainContainer {
+    display: flex;
+}
+
+.title {
+    max-width: 338px;
+    display: block;
+    line-height: 45.6px;
+}
+
+.optionsCollider {
+    cursor: pointer;
+    overflow: hidden;
+    margin: 0 0 141px;
+    transition: all 0.3s ease;
+}
+
+.optionsCollider:last-child {
+    margin: 0;
+}
+
+.collapseContent {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.6s ease, opacity 0.6s ease;
+    opacity: 0;
+    margin: 25px 0 0;
+}
+
+.optionsColliderOpen .collapseContent {
+    opacity: 1;
+    max-height: 1000px;
+    transition: max-height 0.6s ease, opacity 0.6s ease;
+}
+
+.text {
+    margin: 10px 0;
+    opacity: 0;
+    transition: opacity 0.6s ease;
+}
+
+.optionsColliderOpen .text {
+    opacity: 1;
+    transition: opacity 0.6s ease 0.3s;
+}
+
+.img {
+    width: 893px;
+    min-height: 1039px;
+    max-height: 1039px;
+}
+
+@media (max-width: 1150px) {
+    .img {
+        width: 500px;
+        min-height: 750px;
+        max-height: 750px;
+    }
+}
+
+@media (max-width: 768px) {
+    .background {
+        padding: 111px 0 135px 30px;
+    }
+
+    .mainTitle {
+        line-height: 16.96px;
+        margin: 0 0 60px;
+    }
+
+    .wrapper {
+        width: 100%;
+        margin: 0px;
+    }
+
+    .title {
+        max-width: 144px;
+        line-height: 25.6px;
+    }
+
+    .optionsCollider {
+        margin: 0 0 30px;
+    }
+
+    .img {
+        width: 196px;
+        min-width: 196px;
+        min-height: 294px;
+        max-height: 294px;
+    }
+
+    .collapseContent {
+        max-width: 125px;
+        margin: 0;
+    }
+}

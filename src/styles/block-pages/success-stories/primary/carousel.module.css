@@ -1,0 +1,147 @@
+.background {
+    background: #E5E5E5;
+    margin: 0 auto;
+    padding: 96px 0 166px;
+}
+
+.title {
+    text-align: center;
+    margin: 0 0 175px;
+}
+
+.message {
+    max-width: 672px;
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+}
+
+.message p {
+    line-height: 140.625%;
+}
+
+.messageText {
+    line-height: 33.75px;
+}
+
+.author {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    margin: 50px 0px 0 -120px;
+}
+
+.carousel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    max-width: 1020px;
+    margin: 0 auto;
+    width: 100%;
+    height: 314px;
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 100%;
+}
+
+.slide {
+    min-width: 100%;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrow {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 2rem;
+    position: absolute;
+    top: 100px;
+    transform: translateY(-50%);
+    z-index: 2;
+}
+
+.arrowLeft {
+    left: 10px;
+    color: #E77C30;
+    width: 30px;
+    height: 48px;
+}
+
+.arrowRight {
+    right: 10px;
+    color: #E77C30;
+    width: 30px;
+    height: 48px;
+}
+
+.bullets {
+    display: flex;
+    justify-content: center;
+}
+
+.bullet {
+    width: 16px;
+    height: 16px;
+    margin: 0 12px;
+    background-color: #FFF;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.bullet.activeBullet {
+    background-color: #E77C30;
+}
+
+@media (max-width: 768px) {
+
+    .background {
+        padding: 96px 15px 82px;
+    }
+
+    .message {
+        max-width: 265px;
+        margin: 54px auto 0 45px;
+        text-align: start;
+    }
+
+    .messageText {
+        line-height: 15.469px;
+    }
+    
+    .author {
+        margin: 25px 0px 0px -120px;
+    }
+
+    .title {
+        text-align: start;
+        margin: 0 0 -10px 60px;
+    }
+    
+    .bullets {
+        margin-top: 24px;
+    }
+
+    .arrow {
+        top: 90px;
+    }
+
+    .carousel {
+        height: 230px
+    }
+
+    .bullet {
+        width: 8px;
+        height: 8px;
+        margin: 0 6px;
+    }
+}

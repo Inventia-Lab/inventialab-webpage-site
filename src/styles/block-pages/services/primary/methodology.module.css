@@ -1,0 +1,241 @@
+.background {
+    background: #FFFFFF;
+    position: relative;
+    padding: 413px 0 362px;
+}
+
+.wrapper {
+    width: 100%;
+}
+
+.titleContainer {
+    text-align: center;
+}
+
+.descriptionContainer {
+    text-align: center;
+    max-width: 705px;
+    width: 100%;
+    margin: 40px auto 0px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    width: auto;
+    max-width: 100%;
+    overflow: hidden;
+    height: 904px;
+    align-items: center;
+}
+
+.textContainer1 {
+    width: 310.534px;
+    height: 251.127px;
+    border-radius: 0 45% 45% 0;
+    background-color: #EBA058;
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: 0 6px 0 0;
+    flex-shrink: 0;
+    cursor: pointer;
+    padding: 0 0 0 50px;
+}
+
+.textContainer2 {
+    width: 237px;
+    height: 238px;
+    background-color: #B1C8FA;
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 6px 0 0;
+    flex-shrink: 0;
+    cursor: pointer;
+}
+
+.textContainer3 {
+    width: 347px;
+    height: 242px;
+    border-radius: 162.287px;
+    background: #3E70F0;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 6px 0 0;
+    flex-shrink: 0;
+    cursor: pointer;
+}
+
+.textContainer4 {
+    width: 352px;
+    height: 242px;
+    border-radius: 162.287px 0 0 162.287px;
+    background: #E77C30;
+    position: relative;
+    display: flex;
+    padding: 0 0 0 80px;
+    align-items: center;
+    flex-shrink: 0;
+    cursor: pointer;
+    line-height: 30.4px;
+}
+
+.description1 {
+    position: absolute;
+    top: -170px;
+    left: 0;
+    max-width: 456px;
+    min-width: 456px;
+    display: block;
+}
+
+.description2 {
+    position: absolute;
+    bottom: -117px;
+    left: 0;
+    max-width: 470px;
+    min-width: 470px;
+    display: block;
+}
+
+.description3 {
+    position: absolute;
+    top: -120px;
+    left: 0;
+    max-width: 486px;
+    min-width: 486px;
+    display: block;
+}
+
+.description4 {
+    position: absolute;
+    bottom: -320px;
+    left: 0;
+    max-width: 486px;
+    min-width: 486px;
+    display: block;
+}
+
+.text4 {
+    line-height: 30.4px;
+}
+
+@media (max-width: 768px) {
+
+    .background {
+        padding: 60px 0 180px;
+        background: #F5F5F5;
+    }
+
+    .descriptionContainer {
+        max-width: 265px;
+        margin: 30px auto 60px;
+        line-height: 15.469px;
+    }
+
+    .container {
+        flex-direction: column;
+        align-items: center;
+        overflow: inherit;
+        height: auto;
+        align-items: center;
+        width: 100%;
+    }
+
+    .textContainer1 {
+        flex-direction: column-reverse;
+        width: 174px;
+        height: 200px;
+        justify-content: center;
+        border-radius: 0 0 45% 45%;
+        padding: 0 0 50px;
+        margin: 0 0 10px;
+    }
+
+    .textContainer2 {
+        flex-direction: column-reverse;
+        width: 174px;
+        height: 174px;
+        margin: 0 0 10px;
+    }
+
+    .textContainer3 {
+        flex-direction: column-reverse;
+        width: 174px;
+        height: 238px;
+        margin: 0 0 10px;
+    }
+
+    .textContainer4 {
+        flex-direction: column-reverse;
+        width: 174px;
+        height: 320px;
+        text-align: center;
+        justify-content: center;
+        margin: 0 0 10px;
+        border-radius: 162.287px;
+        padding: 0;
+        line-height: 95%;
+    }
+
+    .description1 {
+        position: relative;
+        top: inherit;
+        bottom: inherit;
+        margin: 4px 0 12px;
+        max-width: 270px;
+        min-width: 270px;
+        width: 100%;
+        text-align: center;
+        line-height: 13.95px;
+    }
+    
+    .description2 {
+        position: relative;
+        top: inherit;
+        bottom: inherit;
+        margin: 4px 0 12px;
+        max-width: 270px;
+        min-width: 270px;
+        width: 100%;
+        text-align: center;
+        line-height: 13.95px;
+    }
+    
+    .description3 {
+        position: relative;
+        top: inherit;
+        bottom: inherit;
+        margin: 4px 0 12px;
+        max-width: 270px;
+        min-width: 270px;
+        width: 100%;
+        text-align: center;
+        line-height: 13.95px;
+    }
+    
+    .description4 {
+        position: relative;
+        top: inherit;
+        bottom: inherit;
+        margin: 4px 0 12px;
+        max-width: 270px;
+        min-width: 270px;
+        width: 100%;
+        text-align: center;
+        line-height: 13.95px;
+    }
+
+    .text4 {
+        line-height: 95%;
+    }
+
+    .descriptionMobile {
+        line-height: 13.95px;
+    }
+}

@@ -1,0 +1,61 @@
+.background {
+    background-color: #E5E5E5;
+    position: relative;
+    padding: 291px 139px 416px;
+}
+
+.wrapper {
+    max-width: 1020px;
+    width: 100%;
+}
+
+.titleContainer {
+    margin: 0 0 10px;
+}
+
+.titleContainer p {
+    line-height: 115%; /* 55.2px */
+    letter-spacing: 2.4px;
+}
+
+.subtitleContainer {
+    max-width: 556px;
+    width: 100%;
+}
+
+.subtitleContainer p {
+    line-height: 140.625%; /* 28.125px */
+    letter-spacing: 2px;
+}
+
+@media (max-width: 768px) {
+
+    .background {
+        padding: 171px 30px 171px;
+    }
+
+    .wrapper {
+        max-width: 265px;
+        width: 100%;
+    }
+
+    .titleContainer {
+        margin: 0 0 10px;
+    }
+
+    .titleContainer p {
+        line-height: normal;
+        letter-spacing: normal;
+    }
+
+    .subtitleContainer {
+        max-width: 243px;
+        width: 100%;
+        line-height: 15.4px;
+    }
+
+    .subtitleContainer p {
+        line-height: normal;
+        letter-spacing: normal;
+    }
+}

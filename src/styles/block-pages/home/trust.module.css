@@ -1,0 +1,85 @@
+.background {
+    background-color: #FFFFFF;
+    padding: 304px 50px 483px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    max-width: 1000px;
+    width: 100%;
+}
+
+.anchor2 {
+    height: 90px;
+}
+
+.infoContainer {
+    margin: 0 auto 113px;
+    max-width: 774px;
+    width: 100%;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+    margin: 55px 0 0 0;
+}
+
+.title {
+    display: block;
+    max-width: 350px;
+    width: 100%;
+    margin: 0 auto;
+    line-height: 50.88px;
+    text-align: center;
+}
+
+.imgContainer {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    opacity: 1;
+}
+
+@media (max-width: 768px) {
+    .background {
+        padding: 69px 44px 72px;
+    }
+
+    .wrapper {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .title {
+        max-width: 150px;
+        width: 100%;
+        line-height: 106%;
+    }
+
+    .infoContainer {
+        margin: 0;
+        padding: 38px 0 0;
+    }
+
+    .buttonContainer {
+        margin: 55px 0 0 0px;
+    }
+
+    .anchor2 {
+        height: 33px;
+    }
+
+    .buttonItem {
+        width: 110px !important;
+        height: 30px !important;
+    }
+
+    .buttonText {
+        display: flex;
+    }
+}

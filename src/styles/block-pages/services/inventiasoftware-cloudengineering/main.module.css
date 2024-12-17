@@ -1,0 +1,137 @@
+.background {
+    background: #FFFFFF;
+    padding: 196px 40px 0;
+}
+
+.wrapper {
+    max-width: 1020px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container {
+    margin: 140px 0 399px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.titleContainer {
+    max-width: 322px;
+    width: 100%;
+}
+
+.title {
+    line-height: 45.6px;
+    display: block;
+}
+
+.description {
+    line-height: 28.125px;
+    letter-spacing: 2px;
+}
+
+.logo {
+    margin: 0 0 0 -30px;
+}
+
+.descriptionContainer {
+    max-width: 556px;
+    width: 100%;
+}
+
+.textContent {
+    margin: 0px 0 50px;
+}
+
+.text {
+    max-width: 416px;
+    width: 100%;
+    line-height: 33.75px;
+    letter-spacing: 2.4px;
+}
+
+.background2 {
+    width: 100%;
+    max-width: 100%;
+}
+
+.background2 :global(img) {
+    display: block;
+}
+
+.explanationContent {
+    display: flex;
+    padding: 358px 0 400px;
+    align-items: center;
+}
+
+.img1 {
+    margin: 0 30% 0 0;
+}
+
+@media (max-width: 768px) {
+
+    .background {
+        padding: 69px 40px 0;
+    }
+
+    .title {
+        line-height: 19px;
+    }
+
+    .container {
+        margin: 40px 0 80px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .logo {
+        margin: 0 0 15px -10px;
+    }
+
+    .titleContainer {
+        margin: 0 0 13px;
+        max-width: 220px;
+        width: 100%;
+    }
+
+    .descriptionContainer {
+        max-width: 260px;
+        width: 100%;
+        line-height: 15.469px;
+        letter-spacing: 0.99px;
+    }
+
+    .description {
+        line-height: 15.469px;
+        letter-spacing: 0.99px;
+    }
+
+    .text {
+        max-width: 188px;
+        width: 100%;
+        line-height: 17.761px;
+        letter-spacing: 1.3px;
+        margin: 0 0 0 25px;
+    }
+
+    .text p {
+        line-height: 136.625%;
+        letter-spacing: 1.3px;
+    }
+
+    .textContent {
+        margin: 0 0 70px;
+    }
+
+    .explanationContent {
+        display: flex;
+        padding: 130px 0;
+        align-items: center;
+    }
+
+    .img1 {
+        margin: 35px 18% 0 0;
+    }
+}

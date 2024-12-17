@@ -1,0 +1,35 @@
+.background {
+    background-color: #2005C0;
+    padding: 212px 197px 148px;
+    display: flex;
+    align-items: center;
+    height: 862px;
+}
+
+.wrapper {
+    max-width: 915px;
+    width: 100%;
+    margin: 0 auto 0 0;
+}
+
+.title {
+    line-height: 91.2px;
+    display: block;
+}
+
+@media (max-width: 920px) {
+    .background {
+        height: 305px;
+        padding: 130px 20px 109px 36px;
+    }
+
+    .wrapper {
+        max-width: 285px;
+    }
+
+    .title {
+        max-width: 323px;
+        width: 100%;
+        line-height: 95%;
+    }
+}
