@@ -68,7 +68,11 @@
 @media (max-width: 768px) {
 
     .background {
-        padding: 101px 10px 100px 65.5px;
+        padding: 101px 65.5px 100px;
+    }
+
+    .container {
+        margin: 0 auto;
     }
 
     .formContainer {
@@ -86,7 +90,7 @@
     .title {
         max-width: 243px;
         width: 100%;
-        margin: 0 0 150px;
+        margin: 0 auto 150px;
     }
 
     .title2 {

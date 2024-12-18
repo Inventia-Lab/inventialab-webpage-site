@@ -1,6 +1,5 @@
 import useResponsive from "../../../../hooks/useResponsive";
 import styles from "../../../../styles/block-pages/success-stories/ion/cover.module.css"
-// import Image from "next/image";
 
 const Cover = () => {
 
@@ -13,8 +12,7 @@ const Cover = () => {
                 alt="Financiera Podemos Progresar"
                 width={is768 ? 384 : 1920}
                 height={is768 ? 128 : 1080}
-                // priority
-                // layout="responsive"
+                className={styles.img}
             />
         </div>
     )
