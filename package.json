@@ -17,6 +17,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
+    "stage-deploy": "react-scripts build && firebase hosting:channel:deploy --expires 5d inventia-previous",
     "deploy": "react-scripts build && firebase deploy"
   },
   "eslintConfig": {
