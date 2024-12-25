@@ -51,7 +51,7 @@ const useText = () => {
     const addressText = [{
         text: t('footer.address.text1'),
         tag: "a",
-        href: "https://www.google.com.mx/maps/place/Calle+Lisboa+47,+Ju%C3%A1rez,+Cuauht%C3%A9moc,+06600+Ciudad+de+M%C3%A9xico,+CDMX/@19.429377,-99.1587616,17z/data=!3m1!4b1!4m6!3m5!1s0x85d1ff435db370bf:0xb67eb88678bebb84!8m2!3d19.429377!4d-99.1561867!16s%2Fg%2F11khhhjqbw?entry=ttu&g_ep=EgoyMDI0MDgyMS4wIKXMDSoASAFQAw%3D%3D",
+        href: "https://www.google.com/maps/place/InventiaLab+S.A.+de+C.V/@19.36861,-99.258159,17z/data=!3m1!4b1!4m6!3m5!1s0x85d201f6337d7475:0x7b616f659faf29f6!8m2!3d19.36861!4d-99.258159!16s%2Fg%2F11txff693t?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D",
         ariaLabel: `See location in Maps ${t('footer.address.text1')}`,
         font: "poppinsLight",
         size: 15,
